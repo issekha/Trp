@@ -1,0 +1,3 @@
+trp_mdl_homepage:
+    path:     /
+    defaults: { _controller: TrpMdlBundle:Default:index }
