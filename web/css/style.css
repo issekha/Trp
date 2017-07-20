@@ -14,3 +14,24 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.view {
+    /* The image used */
+    background-image: url("../images/mdl_cover.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+   
+    background-size: cover;
+      z-index: 1;
+	padding-top: 10%;
+
+}
+.jumbotron {
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.1);
+    
+    
+    /* tiré de la moitié de sa propre hauteur */
+}
