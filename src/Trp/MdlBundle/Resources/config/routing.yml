@@ -1,3 +1,8 @@
 trp_mdl_homepage:
     path:     /
     defaults: { _controller: TrpMdlBundle:Default:index }
+
+trp_mdl_index:
+    path:    /home
+    defaults: { _controller: TrpMdlBundle:MdlHome:index }
+
