@@ -2,7 +2,7 @@ trp_mdl_index:
     path:    /
     defaults: { _controller: TrpMdlBundle:Mdl:index }
 
-trp_mdl_view:
+trp_mdl_step:
     path:    /step/{id}
-    defaults: { _controller: TrpMdlBundle:Mdl:view }
+    defaults: { _controller: TrpMdlBundle:Mdl:step }
 

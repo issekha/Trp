@@ -1,52 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-   <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-		<link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  	<title>TRP</title>
-  </head>
-  <body>
-		<div class="container">
-			<!--Navbar-->
-			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-toggleable-md navbar-dark bg-primary fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="/">Musée du Louvre</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<!--/.Navbar-->
-		<div id="content"></div>
-			<!--Mask-->
-		<div class="view">
+
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+<div class="view">
 			<!--Intro content-->
 			<div class="jumbotron">
 				<div class="container text-center">
 					<h1>Musée du Louvre</h1>
 					<p>Espace Billetterie</p>
-					<p><a class="btn btn-info btn-lg" role="button">Acheter<span class="glyphicon glyphicon glyphicon-shopping-cart"></span></a></p>
+					<p><a href="app_dev.php/step/1" class="btn btn-info btn-lg" role="button">Entrez<span class="glyphicon glyphicon glyphicon-shopping-cart"></span></a></p>
 				</div>
 			</div>
 		</div>
-		<!--/Intro content-->
 
-		<!--/.Mask-->
-
-		
-		
-		<footer class="footer">
-			<a href="https://github.com//issekha/Trp">Powered by dsetdb</a> Copyright 2017.
-		</footer>
-
-		<!-- jQuery -->
-		<script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
-		<!-- JavaScript Boostrap plugin -->
-		<script src="{{ asset('lib/bootstrap/js/bootstrap.min.js') }}"></script>
-
-
-	</body>
-</html>
+{% endblock %}
