@@ -2,6 +2,21 @@
 
 {% block content %}
 
-<p>Hello World</p>
+	<p>
+		<h1>Etape 1</h1>
+		<div class="details">
+			<ul>Choississez :
+				<li>Votre date de visite</li>
+				<li>Votre type de billet</li>
+				<li>Le nombre de billet souhaité</li>
+			</ul>
+		</div> 
+	</p>
+		
+		<div class="well">
+  			{{ form(form) }}
+		</div>
+			
+				
 
 {% endblock %}

@@ -35,3 +35,10 @@ body {
     
     /* tiré de la moitié de sa propre hauteur */
 }
+
+h1, .well, .details{
+	text-align: center;
+}
+ul{
+	list-style:none;
+}

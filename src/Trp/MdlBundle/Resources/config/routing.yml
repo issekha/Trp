@@ -3,6 +3,6 @@ trp_mdl_index:
     defaults: { _controller: TrpMdlBundle:Mdl:index }
 
 trp_mdl_step:
-    path:    /step/{id}
-    defaults: { _controller: TrpMdlBundle:Mdl:step }
+    path:    /step/1
+    defaults: { _controller: TrpMdlBundle:Mdl:step1 }
 
